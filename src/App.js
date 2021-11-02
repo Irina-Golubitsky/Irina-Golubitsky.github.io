@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import About from './components/About';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div>
    <Header></Header>
    <About></About>
+   <Footer></Footer>
     </div>
   );
 }
