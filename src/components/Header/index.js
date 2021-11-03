@@ -20,10 +20,10 @@ return(
 							<nav class="mainmenu">
 								<div class="collapse navbar-collapse">
 									<ul class="nav navbar-nav menu">
-										<li class="active"><a href="#personal-area"><i class="fa fa-home"></i>Homepage</a></li>										
-										<li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>					
+										<li ><a href="/about"><i class="fa fa-home"></i>Homepage</a></li>										
+										<li><a href="/portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>					
 										<li><a href="#testimonials"><i class="fa fa-star"></i>Resume</a></li>			
-										<li><a href="#contact"><i class="fa fa-address-book"></i>Contact</a></li>		
+										<li><a href="/contact"><i class="fa fa-address-book"></i>Contact</a></li>		
 									</ul>
 									<ul class="social-icon">
 										<li><a href="#header"><i class="fa fa-plus"></i></a></li>
