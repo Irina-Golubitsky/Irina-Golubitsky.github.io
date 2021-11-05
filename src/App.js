@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 
 
+
 function App() {
   const [categories] = useState([
     {

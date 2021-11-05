@@ -93,29 +93,17 @@ Version:	1.1
 		// Isotop Active
 		======================================*/
 		$(window).on('load', function() {
-			Maheraz_Custom_JS();		
+					
 			
-			if ($.fn.isotope) {
-                $(".isotop-active").isotope({
-                    filter: '*',
-                });
+		
 
 					$('.portfolio-nav ul li').on('click', function() {
                     $(".portfolio-nav ul li").removeClass("active");
                     $(this).addClass("active");
 
-                    var selector = $(this).attr('data-filter');
-                    $(".isotop-active").isotope({
-                        filter: selector,
-                        animationOptions: {
-                            duration: 750,
-                            easing: 'easeInOutQuart',
-                            queue: false,
-                        }
-                    });
-                    return false;
+                   
                 });
-            }
+            
 		});
 		
 		/*====================================

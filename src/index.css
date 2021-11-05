@@ -1085,12 +1085,10 @@ Version:	1.1
 	top: 0;
 	z-index: 20;
 	color: #fff;
-	top: 50%;
+	top: 20%;
 	text-align: center;
 	padding-left: 30px;
 	padding-right: 30px;
-	margin-bottom: 30px;
-
 	opacity: 0;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
@@ -1146,7 +1144,7 @@ Version:	1.1
 	transition:all 1s ease;
 }
 #portfolio .portfolio-single:hover .button{
-	bottom:0;
+	bottom:0px;
 }
 #portfolio .portfolio-hover .button a {
 	color: #333;
@@ -1154,9 +1152,13 @@ Version:	1.1
 	display: inline-block;
 	margin: 0 5px;
 	border-radius: 100%;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+}
+#portfolio .portfolio-hover .button  i {
+	margin-top: 9px;
+
 }
 #portfolio .portfolio-hover .button a:hover,
 #portfolio .portfolio-hover .button .primary{
