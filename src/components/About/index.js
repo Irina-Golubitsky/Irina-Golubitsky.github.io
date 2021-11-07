@@ -23,11 +23,8 @@ function About(props) {
 
                                             <div class="col-md-8 col-sm-12 col-xs-12">
                                                 <div class="content">
-                                                    <p>Hello! My name is Irina Golubitsky. I got a bachelor's degree in Math at Perm State University (Russia), and have five years of experience working as a Software Developer with 1C:Enterprise script. After taking the Coding Boot Camp at UCLA Extension, I would like to start my new career as a Full Stack Web Developer.</p>
-                                                    <p>Welcome to my website. sit amet, consectetur adipiscing elit. Ut a lectus
-                                                        eu leo faucibus aliquam. Suspendisse eleifend fringilla nibh. Praesent
-                                                        ut luctus dolor. Suspendisse a rutrum arcu. Aliquam erat volutpat.
-                                                        Phasellus lobortis erat vitae fringilla malesuada. Fusce semper</p>
+                                                    <p>Hello! My name is Irina Golubitsky. I got a bachelor's degree in Math at Perm State University (Russia), and have five years of experience working as a Software Developer with 1C:Enterprise script. I am looking forward to start my new career as a Full Stack Web Developer after taking the Coding Boot Camp at UCLA Extension.</p>
+                                                    <p>Welcome to my website. This is my place to share my works with potential empoyers and fellow developers. If you have any questions or suggestions, please feel free to contact me.</p>
                                                 </div>
 
                                             </div>

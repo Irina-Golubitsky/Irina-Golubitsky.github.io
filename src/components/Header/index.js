@@ -23,7 +23,7 @@ return(
 									<ul class="nav navbar-nav menu">
 										<li ><a href="/about"><i class="fa fa-home"></i>Homepage</a></li>										
 										<li><a href="/portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>					
-										<li><a href="/resume"><i class="fa fa-star"></i>Resume</a></li>			
+										<li><a href="/resume"><i class="fa fa-file"></i>Resume</a></li>			
 										<li><a href="/contact"><i class="fa fa-address-book"></i>Contact</a></li>		
 									</ul>
 									<ul class="social-icon">

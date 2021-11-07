@@ -31,8 +31,8 @@ import ProjectsList from '../ProjectsList';
                             <div class="portfolio-nav">
                                 <ul>
                                     <li class="active" data-filter="all" onClick={() => setCurrentCategory({ name: "all" })} ><span>10</span><i class="fa fa-tasks"></i>All</li>
-                                    <li data-filter="works"  onClick={() => setCurrentCategory({ name: "works" })} ><span>08</span><i class="fa fa-pencil"></i>My works</li>
-                                    <li data-filter="group" onClick={() => setCurrentCategory ({ name: "group" })} ><span>02</span><i class="fa fa-paint-brush"></i>Group projects</li>
+                                    <li data-filter="works"  onClick={() => setCurrentCategory({ name: "works" })} ><span>08</span><i class="fa fa-user"></i>My works</li>
+                                    <li data-filter="group" onClick={() => setCurrentCategory ({ name: "group" })} ><span>02</span><i class="fa fa-users"></i>Group projects</li>
 
                                 </ul>
                             </div>

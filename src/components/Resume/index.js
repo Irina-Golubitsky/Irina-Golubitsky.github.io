@@ -4,7 +4,7 @@ function Resume() {
 
     return (
 
-        <section id="resume">
+        <section id="resume" class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -22,7 +22,7 @@ function Resume() {
                         <h3>Summary</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
-                        <p>I have five years of experience working as a Software Developer with 1C:Enterprise script in Russia. After taking the Coding Boot Camp at UCLA Extension, I would like to start my new career as a Full Stack Web Developer.</p>
+                        <p>I have five years of experience working as a Software Developer with 1C:Enterprise script in Russia. After taking the Coding Boot Camp at UCLA Extension, I am looking forward to start my new career as a Full Stack Web Developer.</p>
                     </div>
                 </div><br></br>
                 <div class="row">
