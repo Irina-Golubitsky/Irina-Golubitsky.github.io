@@ -881,6 +881,9 @@
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
 	height: 355px;
 }
+#contact .form{
+	height:auto;
+}
 #contact .form-group {
 	position: relative;
 	display: block;
@@ -897,9 +900,7 @@
 	border: 1px solid #ddd;
 	padding-left: 10px;
 	border-radius: 5px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
+
 	font-weight: 400;
 }
 #contact .form-group textarea {
@@ -910,9 +911,7 @@
 	padding-left: 10px;
 	resize: none;
 	height: 173px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
+
 }
 #contact .form-group input:hover,
 #contact .form-group input:focus,
@@ -927,9 +926,7 @@
 	border: 0px solid;
 	color:#fff;
 	border-radius:5px;
-	-webkit-transition:all 0.4s ease;
-	-moz-transition:all 0.4s ease;
-	transition:all 0.4s ease;
+
 }
 #contact .form-group .button:hover{
 	background:#252525;

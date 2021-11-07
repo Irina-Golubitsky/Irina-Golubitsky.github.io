@@ -87,11 +87,11 @@ const ProjectsList = ({ category }) => {
                                     <></>
 
                                 ) : (
-                                    <a href={image.deployed}><i class="fa fa-link fa-3x "></i></a>
+                                    <a href={image.deployed} target="_blank"><i class="fa fa-link fa-3x "></i></a>
                                 )}
 
 
-                                <a href={image.github} class="primary"><i class="fa fa-github fa-3x"></i></a>
+                                <a href={image.github} class="primary" target="_blank"><i class="fa fa-github fa-3x"></i></a>
                             </div>
                         </div>
                     </div>
