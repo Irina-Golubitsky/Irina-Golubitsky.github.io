@@ -10,7 +10,7 @@ return(
 					<div class="col-md-3 col-sm-12 col-xs-12">
 						
 						<div class="logo">
-							<a href="index.html">Irina Golubitsky</a>
+							<a href="/about">Irina Golubitsky</a>
 						</div>
 					
 						<div class="mobile-nav"></div>
