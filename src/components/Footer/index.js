@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import contacts from '../../utils/contacts';
 
 function Footer(props) {
 
@@ -15,10 +16,9 @@ function Footer(props) {
 					<div class="col-md-12 col-sm-12 col-xs-12">
 					
 						<ul class="social">
-							<li><a href="#"><i class="fa fa-facebook fa-3x"></i></a></li>
-							<li class="active"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin fa-3x"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest fa-3x"></i></a></li>
+							<li><a href={contacts.linkedin} target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+							<li><a href={contacts.github} target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
+							<li><a href={contacts.facebook} target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>
 						</ul>
 				
 					</div>

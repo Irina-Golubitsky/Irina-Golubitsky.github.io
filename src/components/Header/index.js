@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-function Header(props) {
+import contacts from '../../utils/contacts';
+function Header() {
 
 return(
     <div> 
@@ -22,17 +23,18 @@ return(
 									<ul class="nav navbar-nav menu">
 										<li ><a href="/about"><i class="fa fa-home"></i>Homepage</a></li>										
 										<li><a href="/portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>					
-										<li><a href="#testimonials"><i class="fa fa-star"></i>Resume</a></li>			
+										<li><a href="/resume"><i class="fa fa-star"></i>Resume</a></li>			
 										<li><a href="/contact"><i class="fa fa-address-book"></i>Contact</a></li>		
 									</ul>
 									<ul class="social-icon">
 										<li><a href="#header"><i class="fa fa-plus"></i></a></li>
 									</ul>
 									<ul class="social">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fa fa-behance"></i></a></li>
-										<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href={contacts.linkedin}  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href={contacts.github}  target="_blank"><i class="fa fa-github"></i></a></li>
+										<li><a href={contacts.facebook}  target="_blank"><i class="fa fa-facebook"></i></a></li>
+										
+										
 									</ul>
 								</div>
 							</nav>
@@ -60,8 +62,8 @@ return(
 											</span>
 										</h2>
 										<div class="button">
-											<a href="#contact" class="btn primary shine"><i class="fa fa-rocket"></i>Hire Me</a>
-											<a href="#portfolio" class="btn shine"><i class="fa fa-briefcase"></i>My Projects</a>
+											<a href="/contact" class="btn primary shine"><i class="fa fa-rocket"></i>Hire Me</a>
+											<a href="/portfolio" class="btn shine"><i class="fa fa-briefcase"></i>My Projects</a>
 										</div>
 									</div>
 								</div>
