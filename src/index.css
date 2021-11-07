@@ -2705,6 +2705,15 @@ Version:	1.1
 /*=======================
   End Footer Top
 =========================*/ 
+#resume  h3 {
+	color: #d11a5a;
+
+}
+#resume  a {
+	color: #d11a5a;
+	text-decoration: underline;
+
+}
 
 /*=======================
   Footer CSS
