@@ -22,10 +22,10 @@ return(
 							<nav class="mainmenu">
 								<div class="collapse navbar-collapse">
 									<ul class="nav navbar-nav menu">
-										<li ><a href="react-portfolio/about"><i class="fa fa-home"></i>Homepage</a></li>										
-										<li><a href="react-portfolio/portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>					
-										<li><a href="react-portfolio/resume"><i class="fa fa-file"></i>Resume</a></li>			
-										<li><a href="react-portfolio/contact"><i class="fa fa-address-book"></i>Contact</a></li>		
+										<li ><a href="/react-portfolio/about"><i class="fa fa-home"></i>Homepage</a></li>										
+										<li><a href="/react-portfolio/portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>					
+										<li><a href="/react-portfolio/resume"><i class="fa fa-file"></i>Resume</a></li>			
+										<li><a href="/react-portfolio/contact"><i class="fa fa-address-book"></i>Contact</a></li>		
 									</ul>
 									<ul class="social-icon">
 										<li><a href="#header"><i class="fa fa-plus"></i></a></li>
@@ -63,8 +63,8 @@ return(
 											</span>
 										</h2>
 										<div class="button">
-											<a href="react-portfolio/contact" class="btn primary shine"><i class="fa fa-rocket"></i>Hire Me</a>
-											<a href="react-portfolio/portfolio" class="btn shine"><i class="fa fa-briefcase"></i>My Projects</a>
+											<a href="/react-portfolio/contact" class="btn primary shine"><i class="fa fa-rocket"></i>Hire Me</a>
+											<a href="/react-portfolio/portfolio" class="btn shine"><i class="fa fa-briefcase"></i>My Projects</a>
 										</div>
 									</div>
 								</div>
