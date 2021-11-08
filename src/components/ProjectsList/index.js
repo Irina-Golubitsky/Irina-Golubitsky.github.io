@@ -52,6 +52,33 @@ const ProjectsList = ({ category }) => {
             deployed: 'https://ucla-code-quiz.herokuapp.com/',
             img: 'code-quiz.png'
         },
+        {
+            name: 'Weather Dashboard',
+            category: 'works',
+            description: 'JavaScript(Query), HTML, CSS',
+            description1: ' ​A weather dashboard that uses the OpenWeather One Call API to show current weather and 5-day forcast for a city.',
+            github: 'https://github.com/Irina-Golubitsky/City-Weather-Dashboard',
+            deployed: 'https://irina-golubitsky.github.io/City-Weather-Dashboard/',
+            img: 'weather-dashboard.png'
+        },
+        {
+            name: 'Oculus Octopus',
+            category: 'group',
+            description: 'JavaScript(jQuery), HTML, CSS(Tailwind)',
+            description1: ' A video game discovery servise using data from RAWG API, the largest video game database, and Giant Bomb API.',
+            github: 'https://github.com/mcarieri/oculus-octopus/',
+            deployed: 'https://mcarieri.github.io/oculus-octopus/',
+            img: 'oculus.png'
+        },
+        {
+            name: 'Note Taker',
+            category: 'works',
+            description: 'JavaScript, Node.js, Express.js',
+            description1: ' This application uses an Express.js back end and saves and retrieves note data from a JSON file.',
+            github: 'https://github.com/Irina-Golubitsky/My-Note-Taker',
+            deployed: 'https://young-tor-62851.herokuapp.com/',
+            img: 'note-taker.png'
+        },
 
     ];
 

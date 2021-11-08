@@ -25,11 +25,11 @@ function App() {
       <Header></Header>
       <Router>
         <Switch>
-          <Route exact path='/react-portfolio/' component={About} />
-          <Route exact path='/react-portfolio/about' component={About} />
-          <Route exact path='/react-portfolio/portfolio' component={Portfolio} />
-          <Route exact path='/react-portfolio/resume' component={Resume} />
-          <Route exact path='/react-portfolio/contact' component={Contact} />
+          <Route exact path='react-portfolio//' component={About} />
+          <Route exact path='react-portfolio//about' component={About} />
+          <Route exact path='react-portfolio//portfolio' component={Portfolio} />
+          <Route exact path='react-portfolio//resume' component={Resume} />
+          <Route exact path='react-portfolio//contact' component={Contact} />
 
         </Switch>
       </Router>
