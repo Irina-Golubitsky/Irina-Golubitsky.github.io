@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import React  from 'react';
 import myImage from '../../images/My-photo.jpeg';
-function About(props) {
+function About() {
 
     return (
         <section id="about-me" class="section">
