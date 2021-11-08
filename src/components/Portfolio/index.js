@@ -6,7 +6,7 @@ import ProjectsList from '../ProjectsList';
     function Portfolio() {
         const [currentCategory, setCurrentCategory] = useState({ name: "all" });
         useEffect(() => {
-            // Update the document title using the browser API
+            //  Update the document title using the browser API
            
           
         });
