@@ -1,28 +1,31 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c70d619b.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.97289a41.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.97289a41.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.9afbb34d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9afbb34d.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.7530632e.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7530632e.js.map",
-    "static/js/2.cedfb6ae.chunk.js": "/react-portfolio/static/js/2.cedfb6ae.chunk.js",
-    "static/js/2.cedfb6ae.chunk.js.map": "/react-portfolio/static/js/2.cedfb6ae.chunk.js.map",
+    "static/js/2.03b82815.chunk.js": "/react-portfolio/static/js/2.03b82815.chunk.js",
+    "static/js/2.03b82815.chunk.js.map": "/react-portfolio/static/js/2.03b82815.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/main.c70d619b.chunk.css.map": "/react-portfolio/static/css/main.c70d619b.chunk.css.map",
-    "static/js/2.cedfb6ae.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.cedfb6ae.chunk.js.LICENSE.txt",
+    "static/js/2.03b82815.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.03b82815.chunk.js.LICENSE.txt",
     "static/media/My-photo.jpeg": "/react-portfolio/static/media/My-photo.507e18c8.jpeg",
     "static/media/Resume_Irina-Golubitsky.pdf": "/react-portfolio/static/media/Resume_Irina-Golubitsky.25803d9f.pdf",
     "static/media/budget-tracker.png": "/react-portfolio/static/media/budget-tracker.13683b73.png",
     "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.271f910f.png",
     "static/media/e-commerce.png": "/react-portfolio/static/media/e-commerce.8077f4ed.png",
     "static/media/favicon.png": "/react-portfolio/static/media/favicon.989645e1.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.c4d8f684.png",
+    "static/media/oculus.png": "/react-portfolio/static/media/oculus.1fbd00f0.png",
     "static/media/sn-api.png": "/react-portfolio/static/media/sn-api.445cc07a.png",
-    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.8a10f91e.png"
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.8a10f91e.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.dc728ba0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7530632e.js",
-    "static/js/2.cedfb6ae.chunk.js",
+    "static/js/2.03b82815.chunk.js",
     "static/css/main.c70d619b.chunk.css",
-    "static/js/main.97289a41.chunk.js"
+    "static/js/main.9afbb34d.chunk.js"
   ]
 }
