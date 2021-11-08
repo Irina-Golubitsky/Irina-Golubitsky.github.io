@@ -10,7 +10,7 @@ function About() {
                         <div class="tabs-main">
                             <div class="tab-content">
 
-                                <div role="tabpanel" class="tab-pane fade in active" id="welcome">
+                                
                                     <div class="about-text">
                                         <h2 class="tab-title">About Me</h2>
                                         <div class="row">
@@ -30,7 +30,7 @@ function About() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                            
                             </div>
                         </div>
 
