@@ -112,10 +112,7 @@ Version:	1.1
 		/*====================================
 			Wow JS
 		======================================*/		
-		var window_width = $(window).width();   
-			if(window_width > 767){
-            new WOW().init();
-		}
+	
 		
 	
 		
@@ -131,33 +128,7 @@ Version:	1.1
 		
 		
 		
-		/*====================================
-		// Related Portfolio
-		======================================*/ 
-		$(".portfolio-related").owlCarousel({
-			loop:true,
-			autoplay:true,
-			smartSpeed: 600,
-			autoplayTimeout:3500,
-			mouseDrag: true,
-			nav:false,
-			dots:false,
-			items: 1,
-			responsive:{
-				300: {
-					items: 1,
-				},
-				480: {
-					items: 1,
-				},
-				768: {
-					items: 2,
-				},
-				1170: {
-					items: 3,
-				},
-			}
-		});	
+			
 
 		
 		/*====================================
