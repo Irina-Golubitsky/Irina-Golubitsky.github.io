@@ -2,6 +2,7 @@ import React from 'react';
 import contacts from '../../utils/contacts';
 
 import { NavLink, Link } from "react-router-dom";
+//import { BrowserRouter } from 'react-router-dom';
 
 function Header() {
 
@@ -11,11 +12,9 @@ function Header() {
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-12 col-xs-12">
-
 							<div class="logo">
 								<a href="/about">Irina Golubitsky</a>
 							</div>
-
 							<div class="mobile-nav"></div>
 						</div>
 						<div class="col-md-9 col-sm-12 col-xs-12">
@@ -25,10 +24,12 @@ function Header() {
 
 									<div class="collapse navbar-collapse">
 										<ul class="nav navbar-nav menu">
+
 											<li ><Link to="/about"><i class="fa fa-home"></i>Homepage</Link></li>
 											<li><Link to="/portfolio"><i class="fa fa-briefcase"></i>Portfolio</Link></li>
 											<li><Link to="/resume"><i class="fa fa-file"></i>Resume</Link></li>
 											<li><Link to="/contact"><i class="fa fa-address-book"></i>Contact</Link></li>
+
 										</ul>
 										<ul class="social-icon">
 											<li><a href="#"><i class="fa fa-plus"></i></a></li>

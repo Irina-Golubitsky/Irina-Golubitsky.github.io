@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 
 
-const ProjectsList = ({ category }) => {
-
-    
-
+const ProjectsList = ({ category }) => {  
+    // array of my projectrs
     var projects = [
         {
             name: 'Progressive Web Applications (PWA): Budget Tracker',
@@ -81,19 +79,9 @@ const ProjectsList = ({ category }) => {
         },
 
     ];
-
-  
-
-    //const currentProjects = projects.filter((project) => project.category === category);
-    //   if (category=== "all") {
-    //       setCategory(projects)} 
-    //   else {currentProjects = projects.filter((project) => project.category === category)};
-  
-   console.log(projects);
-   console.log(category);
+    // if category=all show all progects, else filter by category
     if (category !== 'all') {
         projects =projects.filter((projects) => projects.category === category);
-    
     } 
 
     return (
@@ -112,12 +100,9 @@ const ProjectsList = ({ category }) => {
                             <div class="button">
                                 {image.deployed === "none" ? (
                                     <></>
-
                                 ) : (
                                     <a href={image.deployed} target="_blank"><i class="fa fa-link fa-2x "></i></a>
                                 )}
-
-
                                 <a href={image.github} class="primary" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                             </div>
                         </div>

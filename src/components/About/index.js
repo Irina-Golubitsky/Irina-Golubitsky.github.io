@@ -8,9 +8,7 @@ function About() {
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 fix">
                         <div class="tabs-main">
-                            <div class="tab-content">
-
-                                
+                            <div class="tab-content">                       
                                     <div class="about-text">
                                         <h2 class="tab-title">About Me</h2>
                                         <div class="row">

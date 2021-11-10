@@ -1,10 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-
+//Send Email Directly From JavaScript
 import { send } from 'emailjs-com';
-
-
-
 
 function Contact() {
     const [formState, setformState] = useState({
@@ -15,11 +12,13 @@ function Contact() {
     });
     const [emailRes, setemailRes] = useState(false);
     const { name, email, message } = formState;
+    // change setFormState onChange
     const handleChange = (e) => {
         setformState({ ...formState, [e.target.name]: e.target.value });
         console.log('Handle Form', formState);
 
     };
+    // sending email
     const onSubmit = (e) => {
         e.preventDefault();
         console.log("sending");
@@ -112,8 +111,6 @@ function Contact() {
                                     <p>Tarzana, CA, USA</p>
                                 </div>
                             </div>
-                            
-                            
 
                         </div>
                     </div>
