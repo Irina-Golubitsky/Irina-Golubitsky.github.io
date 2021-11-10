@@ -73,8 +73,21 @@ Version:	1.1
 			closeOnClick:true,
 		});
 		
-	
-	
+		/*====================================
+		// 	Social JS
+		======================================*/ 	
+		$('.social-icon li a').on( "click", function(){
+			$('.social').toggleClass('active');
+		});
+		
+		
+		/*====================================
+		// Service Hover
+		======================================*/ 
+		$('.single-service').on('mouseenter', function(){
+			$(' .single-service').removeClass('active');
+			$(this).addClass('active');
+		});
 		
 		/*====================================
 		// Isotop Active
@@ -108,7 +121,7 @@ Version:	1.1
 		// 	Side Navigation
 		======================================*/ 	
 		$('.side-icon a').on( "click", function(){
-			
+			$('#header').toggleClass('active');
 		});
 		
 		
@@ -118,12 +131,22 @@ Version:	1.1
 			
 
 		
+		/*====================================
+		Extra JS
+		======================================*/
+		$('.btn, .arrow a, .slicknav_menu li a').on('click', function(event) {
+			var $anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 20 
+			}, 1000, 'easeInOutQuart');
+			event.preventDefault();
+		});
 		
 		
 		/*====================================
 			Video Background
 		======================================*/
-			
+				
 		
     });
 	
