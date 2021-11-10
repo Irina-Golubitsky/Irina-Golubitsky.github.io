@@ -1,7 +1,7 @@
 import React from 'react';
 import contacts from '../../utils/contacts';
 
-function Footer(props) {
+function Footer() {
 
     return (
         <div>

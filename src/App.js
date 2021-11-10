@@ -22,8 +22,8 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
       <Router>
+        <Header></Header>
         <Switch>
           <Route exact path='/' component={About} />
           <Route exact path='/about' component={About} />
@@ -32,8 +32,8 @@ function App() {
           <Route exact path='/contact' component={Contact} />
 
         </Switch>
+        <Footer></Footer>
       </Router>
-      <Footer></Footer>
     </div>
   );
 }
