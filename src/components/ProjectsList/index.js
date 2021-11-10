@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 const ProjectsList = ({ category }) => {  
@@ -17,7 +17,6 @@ const ProjectsList = ({ category }) => {
             name: 'NoSQL: Social Network API',
             category: 'works',
             description: 'Express.js, MongoDB, Mongoose.',
-            description1: ' This app allows the user to add expenses and deposits to their budget with or without a connection.',
             description1: '  An API for a social network web application​',
             github: 'https://github.com/Irina-Golubitsky/my-sn-api',
             deployed: 'none',
@@ -95,7 +94,7 @@ const ProjectsList = ({ category }) => {
                                 alt={image.name} key={image.name} />
                         </div>
                         <div class="portfolio-hover"  >
-                            <h4><span>Project</span><a href="#">{image.name}</a></h4>
+                            <h4><span>Project</span>{image.name}</h4>
                             <p>{image.description}  {image.description1}</p>
                             <div class="button">
                                 {image.deployed === "none" ? (

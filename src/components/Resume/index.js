@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import resumePDF from '../../images/Resume_Irina-Golubitsky.pdf';
 function Resume() {
 

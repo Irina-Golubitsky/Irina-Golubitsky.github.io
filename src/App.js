@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './components/About';
 import Header from './components/Header';
@@ -9,17 +9,6 @@ import Resume from './components/Resume';
 
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'works'
-
-    },
-    { name: 'all' },
-    { name: 'group projects' }
-
-  ]);
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
   return (
     <div>
       <Router>
