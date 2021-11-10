@@ -106,114 +106,8 @@ Version:	1.1
             
 		});
 		
-		/*====================================
-			Counter JS
-		======================================*/ 
-		$('.count').counterUp({
-			time: 1000
-		});
+	
 		
-		/*====================================
-		// Testimonial Carousel
-		======================================*/ 	
-		$(".testimonial-carousel").owlCarousel({
-			loop:true,
-			autoplay:false,
-			smartSpeed: 600,
-			animateOut: 'flipOutX',
-			animateIn: 'flipInX',
-			margin:30,
-			nav:true,
-			dots:false,
-			items: 1,
-			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-		});	
-		
-		/*====================================
-		// Blog Carousel
-		======================================*/ 	
-		$(".blog-carousel").owlCarousel({
-			loop:true,
-			autoplay:false,
-			autoplayTimeout:4000,
-			smartSpeed: 600,
-			margin:15,
-			nav:false,
-			dots:true,
-			responsive:{
-				300: {
-					items: 1,
-				},
-				480: {
-					items: 1,
-				},
-				768: {
-					items: 2,
-				},
-				1170: {
-					items: 3,
-				},
-			}
-		});	
-		
-		/*====================================
-		// Blog Slider
-		======================================*/ 	
-		$("#blog .slide").owlCarousel({
-			loop:true,
-			autoplay:true,
-			autoplayTimeout:3500,
-			smartSpeed: 600,
-			mouseDrag: true,
-			nav:true,
-			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-			dots:true,
-			responsive:{
-				320: {
-					items: 1,
-					dots:false,
-					nav:false,
-				},
-				480: {
-					items: 1,
-					dots:false,
-					nav:false,
-				},
-				768: {
-					items: 1,
-				},
-				1170: {
-					items: 1,
-				},
-			}
-		});	
-		
-		
-		/*====================================
-		// clients Carousel
-		======================================*/ 	
-		$(".clients-slider").owlCarousel({
-			loop:true,
-			autoplay:false,
-			smartSpeed: 600,
-			margin:30,
-			nav:false,
-			dots:false,
-			responsive:{
-				300: {
-					items: 1,
-				},
-				480: {
-					items: 2,
-				},
-				768: {
-					items: 3,
-				},
-				1170: {
-					items: 5,
-				},
-			}
-		});	
 		
 		/*====================================
 			Wow JS
@@ -223,14 +117,7 @@ Version:	1.1
             new WOW().init();
 		}
 		
-		/*======================================
-		// Parallax JS
-		======================================*/ 
-		 $(window).stellar({
-            responsive: true,
-            positionProperty: 'position',
-            horizontalScrolling: false
-        });
+	
 		
 		
 		/*====================================
@@ -240,38 +127,9 @@ Version:	1.1
 			$('#header').toggleClass('active');
 		});
 		
-		/*====================================
-		// Personal Slider
-		======================================*/ 	
-		$(".personal-main.slide").owlCarousel({
-			loop:true,
-			autoplay:true,
-			animateIn: 'fadeIn',
-			animateOut: 'fadeOut',
-			smartSpeed: 600,
-			autoplayTimeout:4000,
-			mouseDrag: false,
-			margin:30,
-			nav:false,
-			dots:true,
-			items: 1,
-		});	
 		
-		/*====================================
-		// Portfolio Single
-		======================================*/ 	
-		$(".portfolio-single.slider").owlCarousel({
-			loop:true,
-			autoplay:true,
-			smartSpeed: 600,
-			autoplayTimeout:3500,
-			mouseDrag: true,
-			margin:30,
-			nav:true,
-			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-			dots:false,
-			items: 1,
-		});	
+		
+		
 		
 		/*====================================
 		// Related Portfolio

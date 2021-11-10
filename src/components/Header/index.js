@@ -25,10 +25,10 @@ function Header() {
 
 									<div class="collapse navbar-collapse">
 										<ul class="nav navbar-nav menu">
-											<li ><NavLink to="/about"><i class="fa fa-home"></i>Homepage</NavLink></li>
-											<li><NavLink to="/portfolio"><i class="fa fa-briefcase"></i>Portfolio</NavLink></li>
-											<li><NavLink to="/resume"><i class="fa fa-file"></i>Resume</NavLink></li>
-											<li><NavLink to="/contact"><i class="fa fa-address-book"></i>Contact</NavLink></li>
+											<li ><Link to="/about"><i class="fa fa-home"></i>Homepage</Link></li>
+											<li><Link to="/portfolio"><i class="fa fa-briefcase"></i>Portfolio</Link></li>
+											<li><Link to="/resume"><i class="fa fa-file"></i>Resume</Link></li>
+											<li><Link to="/contact"><i class="fa fa-address-book"></i>Contact</Link></li>
 										</ul>
 										<ul class="social-icon">
 											<li><a href="#"><i class="fa fa-plus"></i></a></li>
