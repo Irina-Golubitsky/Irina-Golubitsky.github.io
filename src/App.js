@@ -20,6 +20,8 @@ function App() {
           <Route exact path='/resume' component={Resume} />
           <Route exact path='/contact' component={Contact} />
 
+          <Route path="*" component={About} />
+
         </Switch>
         <Footer></Footer>
       </Router>
