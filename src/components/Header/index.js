@@ -22,7 +22,7 @@ function Header() {
 
 								<nav class="mainmenu">
 
-									<div class="collapse navbar-collapse">
+									<div >
 										<ul class="nav navbar-nav menu">
 
 											<li ><Link to="/about"><i class="fa fa-home"></i>Homepage</Link></li>
