@@ -42,7 +42,7 @@ const ProjectsList = ({ category }) => {
         },
         {
             name: 'Code Quiz',
-            category: 'group',
+            category: 'works',
             description: 'Sequelize, Handlebars.js, Express-session.',
             description1: ' ​A timed coding quiz with multiple-choice questions​.',
             github: 'https://github.com/daphne1014/quiz-code',
@@ -60,7 +60,7 @@ const ProjectsList = ({ category }) => {
         },
         {
             name: 'Oculus Octopus',
-            category: 'group',
+            category: 'works',
             description: 'JavaScript(jQuery), HTML, CSS(Tailwind)',
             description1: ' A video game discovery servise using data from RAWG API, the largest video game database, and Giant Bomb API.',
             github: 'https://github.com/mcarieri/oculus-octopus/',

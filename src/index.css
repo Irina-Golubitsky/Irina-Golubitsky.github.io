@@ -867,10 +867,11 @@
   Contact CSS
 =========================*/
 #contact {
+
 	position: relative;
-	top: 50px;
-	z-index: 43;
-	margin-top: -215px;
+	
+
+	
 }
 #contact .form {
 	margin-top: 30px;
@@ -1028,6 +1029,9 @@
 /*=======================
   End Footer Top
 =========================*/ 
+#resume {
+	background: #f5f5f5;
+}
 #resume p {
 	color:#000;
 	

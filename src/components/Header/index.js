@@ -7,13 +7,13 @@ import { NavLink, Link } from "react-router-dom";
 function Header() {
 
 	return (
-		<div>
+		<div id="about">
 			<header id="header">
-				<div class="container">
+				<div class="container" >
 					<div class="row">
 						<div class="col-md-3 col-sm-12 col-xs-12">
 							<div class="logo">
-								<a href="/about">Irina Golubitsky</a>
+								<a href="#about">Irina Golubitsky</a>
 							</div>
 							<div class="mobile-nav"></div>
 						</div>
@@ -22,13 +22,13 @@ function Header() {
 
 								<nav class="mainmenu">
 
-									<div >
+									<div class="collapse navbar-collapse">
 										<ul class="nav navbar-nav menu">
 
-											<li ><Link to="/about"><i class="fa fa-home"></i>Homepage</Link></li>
-											<li><Link to="/portfolio"><i class="fa fa-briefcase"></i>Portfolio</Link></li>
-											<li><Link to="/resume"><i class="fa fa-file"></i>Resume</Link></li>
-											<li><Link to="/contact"><i class="fa fa-address-book"></i>Contact</Link></li>
+										<li><a href="#about"><i class="fa fa-star"></i>About</a></li>
+											<li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+											<li><a href="#resume"><i class="fa fa-file"></i>Resume</a></li>
+											<li><a href="#contact"><i class="fa fa-address-book"></i>Contact</a></li>
 
 										</ul>
 										<ul class="social-icon">
@@ -69,8 +69,8 @@ function Header() {
 												</span>
 											</h2>
 											<div class="button">
-												<Link to="/contact" class="btn primary shine"><i class="fa fa-rocket"></i>Hire Me</Link>
-												<Link to="/portfolio" class="btn shine"><i class="fa fa-briefcase"></i>My Projects</Link>
+												<a href="#contact" class="btn primary shine"><i class="fa fa-rocket"></i>Hire Me</a>
+												<a href="#portfolio" class="btn shine"><i class="fa fa-briefcase"></i>My Projects</a>
 											</div>
 										</div>
 									</div>
