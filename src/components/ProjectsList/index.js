@@ -4,41 +4,15 @@ import React from 'react';
 const ProjectsList = ({ category }) => {  
     // array of my projectrs
     var projects = [
+    
         {
-            name: 'Progressive Web Applications (PWA): Budget Tracker',
+            name: 'Tutor-pro',
             category: 'works',
-            description: 'Express.js, MongoDB, Mongoose.',
-            description1: ' This app allows the user to add expenses and deposits to their budget with or without a connection.',
-            github: 'https://github.com/Irina-Golubitsky/My-Budget-Tracker',
-            deployed: 'https://ig-budget-tracker.herokuapp.com/',
-            img: 'budget-tracker.png'
-        },
-        {
-            name: 'NoSQL: Social Network API',
-            category: 'works',
-            description: 'Express.js, MongoDB, Mongoose.',
-            description1: '  An API for a social network web application​',
-            github: 'https://github.com/Irina-Golubitsky/my-sn-api',
-            deployed: 'none',
-            img: 'sn-api.png'
-        },
-        {
-            name: 'MVC: Tech Blog',
-            category: 'works',
-            description: 'Sequelize, Handlebars.js, Express-session.',
-            description1: ' A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well.',
-            github: 'https://github.com/Irina-Golubitsky/My-Tech-Blog',
-            deployed: 'https://ig-tech-blog.herokuapp.com/',
-            img: 'tech-blog.png'
-        },
-        {
-            name: 'ORM: E-commerce Back End',
-            category: 'works',
-            description: 'JavaScript (Node.js, Express.js), Sequelize.',
-            description1: ' A back end for an e-commerce site.',
-            github: 'https://github.com/Irina-Golubitsky/My-E-commerce',
-            deployed: 'none',
-            img: 'e-commerce.png'
+            description: 'React, GraphQL with a Node.js and Express.js server, MongoDB and the Mongoose ODM, JWT, Bootstrap.',
+            description1: ' A platform where private tutors can create a webpage with thier timetable',
+            github: 'https://github.com/Irina-Golubitsky/tutorpro',
+            deployed: 'https://ig-tutorpro.herokuapp.com/',
+            img: 'tutor-pro.png'
         },
         {
             name: 'Code Quiz',
@@ -50,6 +24,36 @@ const ProjectsList = ({ category }) => {
             img: 'code-quiz.png'
         },
         {
+            name: 'MVC: Tech Blog',
+            category: 'works',
+            description: 'Sequelize, Handlebars.js, Express-session.',
+            description1: ' A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well.',
+            github: 'https://github.com/Irina-Golubitsky/My-Tech-Blog',
+            deployed: 'https://ig-tech-blog.herokuapp.com/',
+            img: 'tech-blog.png'
+        },
+   
+        {
+            name: 'NoSQL: Social Network API',
+            category: 'works',
+            description: 'Express.js, MongoDB, Mongoose.',
+            description1: '  An API for a social network web application​',
+            github: 'https://github.com/Irina-Golubitsky/my-sn-api',
+            deployed: 'none',
+            img: 'sn-api.png'
+        },
+    
+        {
+            name: 'ORM: E-commerce Back End',
+            category: 'works',
+            description: 'JavaScript (Node.js, Express.js), Sequelize.',
+            description1: ' A back end for an e-commerce site.',
+            github: 'https://github.com/Irina-Golubitsky/My-E-commerce',
+            deployed: 'none',
+            img: 'e-commerce.png'
+        },
+    
+        {
             name: 'Weather Dashboard',
             category: 'works',
             description: 'JavaScript(Query), HTML, CSS',
@@ -58,15 +62,7 @@ const ProjectsList = ({ category }) => {
             deployed: 'https://irina-golubitsky.github.io/City-Weather-Dashboard/',
             img: 'weather-dashboard.png'
         },
-        {
-            name: 'Oculus Octopus',
-            category: 'works',
-            description: 'JavaScript(jQuery), HTML, CSS(Tailwind)',
-            description1: ' A video game discovery servise using data from RAWG API, the largest video game database, and Giant Bomb API.',
-            github: 'https://github.com/mcarieri/oculus-octopus/',
-            deployed: 'https://mcarieri.github.io/oculus-octopus/',
-            img: 'oculus.png'
-        },
+    
         {
             name: 'Note Taker',
             category: 'works',
@@ -76,6 +72,25 @@ const ProjectsList = ({ category }) => {
             deployed: 'https://young-tor-62851.herokuapp.com/',
             img: 'note-taker.png'
         },
+        {
+            name: 'Oculus Octopus',
+            category: 'works',
+            description: 'JavaScript(jQuery), HTML, CSS(Tailwind).',
+            description1: ' A video game discovery servise using data from RAWG API, the largest video game database, and Giant Bomb API.',
+            github: 'https://github.com/mcarieri/oculus-octopus/',
+            deployed: 'https://mcarieri.github.io/oculus-octopus/',
+            img: 'oculus.png'
+        },
+         
+        {
+            name: 'Progressive Web Applications (PWA): Budget Tracker',
+            category: 'works',
+            description: 'Express.js, MongoDB, Mongoose.',
+            description1: ' This app allows the user to add expenses and deposits to their budget with or without a connection.',
+            github: 'https://github.com/Irina-Golubitsky/My-Budget-Tracker',
+            deployed: 'https://ig-budget-tracker.herokuapp.com/',
+            img: 'budget-tracker.png'
+        }
 
     ];
     // if category=all show all progects, else filter by category
