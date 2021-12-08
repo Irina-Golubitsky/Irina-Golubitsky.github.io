@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePDF from '../../images/Resume_Irina-Golubitsky.pdf';
+import resumePDF from '../../images/Resume_Irina_Golubitsky.pdf';
 function Resume() {
 
     return (
@@ -19,7 +19,7 @@ function Resume() {
                         <h3>Summary</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
-                        <p>I have five years of experience working as a Software Developer with 1C:Enterprise script in Russia. After taking the Coding Boot Camp at UCLA Extension, I am looking forward to start my new career as a Full Stack Web Developer.</p>
+                        <p>I have five years of experience working as a Software Developer. Recently I have completed the program with full stack web development skills at UCLA Extension.</p>
                     </div>
                 </div><br></br>
                 <div class="row">
@@ -36,14 +36,22 @@ function Resume() {
                         <h3>Experience</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
-                        <p>ООО Янтарь Плюс / Software Developer (1C:Enterprise script)
-                            June  2008 -  Aug 2010  PERM, RUSSIA</p>
-                        <p>Би Софт / Software Developer (1C:Enterprise script)
-                            Dec 2007 - Apr 2008,  PERM, RUSSIA
+                        <p><b>Yantar Plus / Software Developer</b></p>
+                        <p class="years"> June  2008 -  Aug 2010  PERM, RUSSIA </p>
+                        <p>Project development of the Company's business process automation.</p>
+                        <p>Development of integration between 1C configurations and third-party software.</p>
+                        <p>Development of Financial Reports.</p> <br />
+                        <p><b>Bi Soft / Software Developer </b></p>
+                         <p class="years">   Dec 2007 - Apr 2008,  PERM, RUSSIA
                         </p>
-                        <p>ООО Красивый Слон / Software Developer (1C:Enterprise script)
-                            Sept 2006 - Dec 2007,   PERM, RUSSIA
+                        <p>Modification of the 1C configuration for the company's tasks. “1C:Accounting”, “1C:Salary”.</p>
+                        <br />
+                        <p><b>Krasiviy Slon / Software Developer  </b></p>
+                         <p class="years">   Sept 2006 - Dec 2007,   PERM, RUSSIA
                         </p>
+                        <p>Development on the 1C 7.7 platform (programming, testing, implementation, support). Accounting and management reports. </p>
+                        <p>Export / import of data from / to 1C, Excel, DBF, XML, csv, json.</p>
+                        <p>Modification of the 1C configuration for the company's tasks, support of the existing configuration.</p>
                     </div>
                 </div><br></br>
                 <div class="row">
@@ -51,11 +59,11 @@ function Resume() {
                         <h3>Education</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
-                        <p><strong>Coding Boot Camp at UCLA Extension</strong> / Degree
-                            June 2021 - Nov 2021
+                        <p><strong>Coding Boot Camp at UCLA Extension</strong> </p>
+                          <p class="years">  June 2021 - Nov 2021
                         </p>
-                        <p><strong>Perm State University</strong>, Faculty of Mechanics and Mathematics / Bachelor
-                            Sept 2002 - June 2006,  PERM, RUSSIA
+                        <p><strong>Perm State University</strong>, Faculty of Mechanics and Mathematics / Bachelor </p>
+                         <p  class="years">  Sept 2002 - June 2006,  PERM, RUSSIA
                         </p>
                     </div>
                 </div><br></br>

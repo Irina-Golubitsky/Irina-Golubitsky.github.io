@@ -17,13 +17,7 @@ import ProjectsList from '../ProjectsList';
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
 
-                            <div class="portfolio-nav">
-                                <ul>
-                                    <li  onClick={() => setCurrentCategory({ name: "all" })} ><span>9</span><i class="fa fa-tasks"></i>All</li>
-                                    <li  onClick={() => setCurrentCategory({ name: "works" })} ><span>9</span><i class="fa fa-user"></i>My works</li>
-                                    <li onClick={() => setCurrentCategory ({ name: "ucla" })} ><span>0</span><i class="fa fa-users"></i>UCLA projects</li>
-                                </ul>
-                            </div>
+                          
 
                         </div>
                     </div>
