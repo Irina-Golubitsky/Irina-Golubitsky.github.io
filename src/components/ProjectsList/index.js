@@ -32,6 +32,15 @@ const ProjectsList = ({ category }) => {
             deployed: 'https://ig-tech-blog.herokuapp.com/',
             img: 'tech-blog.png'
         },
+        {
+            name: 'Oculus Octopus',
+            category: 'works',
+            description: 'JavaScript(jQuery), HTML, CSS(Tailwind).',
+            description1: ' A video game discovery servise using data from RAWG API, the largest video game database, and Giant Bomb API.',
+            github: 'https://github.com/Irina-Golubitsky/oculus-octopus',
+            deployed: 'https://irina-golubitsky.github.io/oculus-octopus/',
+            img: 'oculus.png'
+        },
    
         {
             name: 'NoSQL: Social Network API',
@@ -72,15 +81,7 @@ const ProjectsList = ({ category }) => {
             deployed: 'https://young-tor-62851.herokuapp.com/',
             img: 'note-taker.png'
         },
-        {
-            name: 'Oculus Octopus',
-            category: 'works',
-            description: 'JavaScript(jQuery), HTML, CSS(Tailwind).',
-            description1: ' A video game discovery servise using data from RAWG API, the largest video game database, and Giant Bomb API.',
-            github: 'https://github.com/mcarieri/oculus-octopus/',
-            deployed: 'https://mcarieri.github.io/oculus-octopus/',
-            img: 'oculus.png'
-        },
+    
          
         {
             name: 'Progressive Web Applications (PWA): Budget Tracker',
