@@ -21,8 +21,9 @@ function About() {
 
                                             <div class="col-md-8 col-sm-12 col-xs-12">
                                                 <div class="content">
-                                                    <p>Hello! My name is Irina Golubitsky. I got a bachelor's degree in Math at Perm State University (Russia), and have five years of experience working as a Software Developer with 1C:Enterprise script. I am looking forward to start my new career as a Full Stack Web Developer after taking the Coding Boot Camp at UCLA Extension.</p>
+                                                    <p>Hello! My name is Irina Golubitsky. I got a bachelor's degree in Math at Perm State University (Russia), and have five years of experience working as a Software Developer. Recently I have completed the program with full stack web development skills at UCLA Extension.</p>
                                                     <p>Welcome to my website. This is my place to share my works with potential empoyers and fellow developers. If you have any questions or suggestions, please feel free to contact me.</p>
+                                                    <p>I am paryicipating in <a href="https://adventofcode.com/2021">advent-of-code-2021</a>, my solutions <a href="https://github.com/Irina-Golubitsky/adventofcode-2021"> repo</a>.</p>
                                                 </div>
 
                                             </div>

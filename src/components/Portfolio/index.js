@@ -10,7 +10,7 @@ import ProjectsList from '../ProjectsList';
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="section-title">
                                 <h1><span>My</span> Portfolio<i class="fa fa-briefcase"></i></h1>
-                                <p> A portfolio of web applications to showcase my knowledge and skills.</p>
+                               
                             </div>
                         </div>
                     </div>

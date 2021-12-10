@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePDF from '../../images/Resume_Irina_Golubitsky.pdf';
+import resumePDF from '../../images/Resume-Irina_Golubitsky.pdf';
 function Resume() {
 
     return (
@@ -38,13 +38,14 @@ function Resume() {
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
                         <p><b>Yantar Plus / Software Developer</b></p>
                         <p class="years"> June  2008 -  Aug 2010  PERM, RUSSIA </p>
-                        <p>Project development of the Company's business process automation.</p>
-                        <p>Development of integration between 1C configurations and third-party software.</p>
-                        <p>Development of Financial Reports.</p> <br />
+                        <p>Automation of internal processes of the company.</p>
+                        <p>Integration of 1C system with third-party software.</p>
+                        <p>Implementation of financial reporting.</p>
+                        <p>Development of pricing module and products’ logistics module.</p> <br />
                         <p><b>Bi Soft / Software Developer </b></p>
                          <p class="years">   Dec 2007 - Apr 2008,  PERM, RUSSIA
                         </p>
-                        <p>Modification of the 1C configuration for the company's tasks. “1C:Accounting”, “1C:Salary”.</p>
+                        <p>Modification of the configuration of 1C Accounting and Salary.</p>
                         <br />
                         <p><b>Krasiviy Slon / Software Developer  </b></p>
                          <p class="years">   Sept 2006 - Dec 2007,   PERM, RUSSIA

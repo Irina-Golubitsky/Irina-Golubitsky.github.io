@@ -65,7 +65,7 @@ const ProjectsList = ({ category }) => {
         {
             name: 'Weather Dashboard',
             category: 'works',
-            description: 'JavaScript(Query), HTML, CSS',
+            description: 'JavaScript(Query), HTML, CSS.',
             description1: ' ​A weather dashboard that uses the OpenWeather One Call API to show current weather and 5-day forcast for a city.',
             github: 'https://github.com/Irina-Golubitsky/City-Weather-Dashboard',
             deployed: 'https://irina-golubitsky.github.io/City-Weather-Dashboard/',
@@ -75,7 +75,7 @@ const ProjectsList = ({ category }) => {
         {
             name: 'Note Taker',
             category: 'works',
-            description: 'JavaScript, Node.js, Express.js',
+            description: 'JavaScript, Node.js, Express.js.',
             description1: ' This application uses an Express.js back end and saves and retrieves note data from a JSON file.',
             github: 'https://github.com/Irina-Golubitsky/My-Note-Taker',
             deployed: 'https://young-tor-62851.herokuapp.com/',
@@ -84,13 +84,13 @@ const ProjectsList = ({ category }) => {
     
          
         {
-            name: 'Progressive Web Applications (PWA): Budget Tracker',
+            name: 'Run Buddy',
             category: 'works',
-            description: 'Express.js, MongoDB, Mongoose.',
-            description1: ' This app allows the user to add expenses and deposits to their budget with or without a connection.',
-            github: 'https://github.com/Irina-Golubitsky/My-Budget-Tracker',
-            deployed: 'https://ig-budget-tracker.herokuapp.com/',
-            img: 'budget-tracker.png'
+            description: 'HTML5, CSS3.',
+            description1: ' A website that offers fitness training services.',
+            github: 'https://github.com/Irina-Golubitsky/run-buddy',
+            deployed: 'https://irina-golubitsky.github.io/run-buddy/',
+            img: 'run-buddy.png'
         }
 
     ];

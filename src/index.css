@@ -610,6 +610,9 @@
 #about-me .about-text p:last-child{
 	margin:0;
 }
+#about-me a {
+	color:#d11a5a;
+}
 
 
 /*=======================
