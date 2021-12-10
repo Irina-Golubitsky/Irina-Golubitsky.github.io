@@ -27,7 +27,7 @@ function Resume() {
                         <h3>Skills</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
-                        <p><u>HTML5</u>, <u>CSS3</u>, <u>JavaScript</u>, <u>jQuery</u>, <u>Express.js</u>, <u>React.js</u>, <u>Node.js</u>, <u>progressive web apps</u>, <u>agile methodology</u>, <u>computer science</u>, <u>database theory</u>, <u>MongoDB</u>, <u>MySQL</u>, <u>Git</u>,
+                        <p>JavaScript, React.js  Node.js, MongoDB, Express.js, HTML5, MySQL, CSS3, GraphQL, Sequelize.js, handlebars, progressive web apps, agile methodology, computer science, database theory, Git, Heroku..etc
                             <u>1C:Enterprise script</u>.</p>
                     </div>
                 </div><br></br>
