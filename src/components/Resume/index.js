@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePDF from '../../images/Resume-Irina_Golubitsky.pdf';
+import resumePDF from '../../images/Irina_Golubitsky_Resume.pdf';
 function Resume() {
 
     return (
