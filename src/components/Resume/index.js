@@ -36,7 +36,7 @@ function Resume() {
                         <h3>Experience</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
-                    <p><b>www.agentlotto.com / Front End Web Developer (Part-Time)</b></p>
+                    <p> <b>www.agentlotto.com / Front End Web Developer (Part-Time)</b></p>
                          <p class="years">   Aug 2016 - Feb 2020,  ISRAEL
                         </p>
                         <p>Directed front end web development processes. JavaScript, React.</p>
@@ -51,7 +51,10 @@ function Resume() {
                         <p><b>Bi Soft / Software Developer </b></p>
                          <p class="years">   Dec 2007 - Apr 2008,  PERM, RUSSIA
                         </p>
-                        <p>Modification of the configuration of 1C Accounting and Salary.</p>
+                        <p>In my time at Bi Soft, I regularly communicated with management to outline their needs and address their concerns. I prepared program codes for reference and reporting in addition to leading the software development processes and resolving technical issues.
+A key achievement of mine in this role is as follows:
+• Reviewed and modified configuration of 1C Accounting and Salary; ultimately maximizing efficiency.
+</p>
                         <br />
                         <p><b>Krasiviy Slon / Software Developer  </b></p>
                          <p class="years">   Sept 2006 - Dec 2007,   PERM, RUSSIA
