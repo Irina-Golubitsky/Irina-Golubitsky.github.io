@@ -19,7 +19,7 @@ function Resume() {
                         <h3>Summary</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
-                        <p>I have five years of experience working as a Software Developer. Recently I have completed the program with full stack web development skills at UCLA Extension.</p>
+                        <p>Highly dynamic, creative, and results-oriented IT professional experienced in software development and web development. Proven track record of streamlining processes to maximize efficiency and productivity output. Adept at outlining client needs and providing software solutions. Compelling communicator skilled at collaborating with multifunctional team members across various projects. </p>
                     </div>
                 </div><br></br>
                 <div class="row">
@@ -36,6 +36,12 @@ function Resume() {
                         <h3>Experience</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
+                    <p><b>www.agentlotto.com / Front End Web Developer (Part-Time)</b></p>
+                         <p class="years">   Aug 2016 - Feb 2020,  ISRAEL
+                        </p>
+                        <p>Directed front end web development processes. JavaScript, React.</p>
+                        <br />
+
                         <p><b>Yantar Plus / Software Developer</b></p>
                         <p class="years"> June  2008 -  Aug 2010  PERM, RUSSIA </p>
                         <p>Automation of internal processes of the company.</p>
