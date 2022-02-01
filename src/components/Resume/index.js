@@ -33,13 +33,13 @@ function Resume() {
                 </div><br></br>
                 <div class="row">
                     <div class="col-md-2 col-sm-12 col-xs-12 ">
-                        <h3>Experience</h3><br></br>
+                        <h3> Experience</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
                     <p> <b> www.agentlotto.com / Front End Web Developer (Part-Time)</b></p>
                          <p class="years">   Aug 2016 - Feb 2020,  ISRAEL
                         </p>
-                        <p>Directed front end web development processes. JavaScript, React.</p>
+                        <p>Directed front end web development processes. JavaScrip t, React.</p>
                         <br />
 
                         <p><b>Yantar Plus / Software Developer</b></p>
