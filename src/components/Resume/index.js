@@ -36,7 +36,7 @@ function Resume() {
                         <h3> Experience</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
-                    <p> <b> www.agentlotto.com / Front End Web Developer (Part-Time)</b></p>
+                    <p> <b>www.agentlotto.com / Front End Web Developer (Part-Time)</b></p>
                          <p class="years">   Aug 2016 - Feb 2020,  ISRAEL
                         </p>
                         <p>Directed front end web development processes. JavaScrip t, React.</p>
