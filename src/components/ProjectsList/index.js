@@ -20,7 +20,7 @@ const ProjectsList = ({ category }) => {
             description: 'Sequelize, Handlebars.js, Express-session.',
             description1: ' ​A timed coding quiz with multiple-choice questions​.',
             github: 'https://github.com/daphne1014/quiz-code',
-            deployed: 'https://ucla-code-quiz.herokuapp.com/',
+            deployed: 'https://ucla-codequiz.herokuapp.com/',
             img: 'code-quiz.png'
         },
         {
