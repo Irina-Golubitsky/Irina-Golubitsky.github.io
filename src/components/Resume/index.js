@@ -36,6 +36,15 @@ function Resume() {
                         <h3> Experience</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
+                    <p> <b>arashlaw.com/ Full Stack Web Developer </b></p>
+                         <p class="years">   Feb 2021 - current,  Los Angeles
+                        </p>
+                        <p>Full stack MERN web development. Third-party APIs Integration (quickbase).
+● Node js
+● JavaScript
+● React
+● MongoDB.</p>
+                        <br />
                     <p> <b>www.agentlotto.com / Front End Web Developer (Part-Time)</b></p>
                          <p class="years">   Aug 2016 - Feb 2020,  ISRAEL
                         </p>
