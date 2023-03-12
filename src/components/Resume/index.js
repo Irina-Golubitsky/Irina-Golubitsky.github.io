@@ -38,7 +38,7 @@ function Resume() {
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
     
                         <br />
-                    <p> <b>e www.agentlotto.com / Front End Web Developer (Part-Time)</b></p>
+                    <p> <b>e www.agentlotto.com / Front End Web Developer (Part-Time) lala</b></p>
                          <p class="years">   Aug 2016 - Feb 2020,  ISRAEL
                         </p>
                         <p>Directed front end web development processes. JavaScrip t, React.</p>
