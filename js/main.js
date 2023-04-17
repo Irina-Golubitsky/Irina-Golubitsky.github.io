@@ -66,7 +66,7 @@ Version:	1.1
 		});
 			
 		/*====================================
-		// 	Mobile Menu
+		// 	Mobile Menu d
 		======================================*/ 	
 		$('.menu').slicknav({
 			prependTo:".mobile-nav",
