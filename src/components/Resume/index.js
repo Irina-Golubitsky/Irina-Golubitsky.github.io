@@ -76,7 +76,7 @@ A key achievement of mine in this role is as follows:
                 </div><br></br>
                 <div class="row">
                     <div class="col-md-2 col-sm-12 col-xs-12 ">
-                        <h3>Education</h3><br></br>
+                        <h3>Education s</h3><br></br>
                     </div>
                     <div class="col-md-10 col-sm-12 col-xs-12 " >
                         <p><strong>Coding Boot Camp at UCLA Extension</strong> </p>
