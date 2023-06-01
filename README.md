@@ -30,7 +30,7 @@ https://irina-golubitsky.herokuapp.com/
 
 ## License 
   
-  The MIT License y
+  The MIT License ugh
 
 
 ## ScreenShot
